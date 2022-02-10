@@ -1,0 +1,74 @@
+.trainingWord {
+  font-size: 3rem;
+  text-align: center;
+  color: #0d6efd;
+}
+.trainslation {
+  font-size: 2rem;
+  text-align: center;
+  color: #0d6efd;
+}
+.transcriptionChekboxBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+.fealdsList {
+  padding-left: 0;
+}
+.fealdsList__item {
+  min-height: 250px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 2%;
+}
+@media screen and (min-width: 720px) {
+  .fealdsList {
+    display: flex;
+  }
+  .fealdsList__item {
+    width: calc(100% / 2 - 20px);
+  }
+}
+.fealdHeader {
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.listTags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.listTags__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.listTags__button {
+  font-size: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.congratulations {
+  color: red;
+  text-align: center;
+}
+.statistics {
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.warning {
+  color: red;
+}
